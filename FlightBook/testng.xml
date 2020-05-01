@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"/>
+<parameter name="FlightbookURL" value="http://newtours.demoaut.com/"/>
+  <test name="Registration" parallel="false">
+  <classes>
+  <class name="registration.Registration"/>
+  </classes>
+  </test>
+ 
+  <test name="signin" parallel="false">
+  <classes>
+   <class name="Signin.Signin"/>
+  </classes>
+  </test>
+  <test name="flightfinder" parallel="false">
+  <classes>
+  <class name="flightfinder.FlightFinder">
+  </class>
+  </classes>
+ </test>
+ <test name="selectflight" parallel="false">
+ <classes>
+ <class name="selectflight.SelectFlight">
+ </class>
+ 
+ </classes>
+ </test>
+ <test name="BookFlight" parallel="false">
+ <classes>
+ <class name="bookflight.BookFlight"></class>
+ 
+ </classes>
+ </test>
+ <test name="Flightconfirm" parallel="false">
+ <classes>
+ <class name="flightconfirm.FlightConfirm"></class>
+ </classes>
+ </test>
+ 
+  
+  
+ 
+  <!-- Test -->
+</suite> <!-- Suite -->

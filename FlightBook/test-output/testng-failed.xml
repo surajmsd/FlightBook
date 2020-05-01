@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="FlightbookURL" value="http://newtours.demoaut.com/"/>
+  <test name="signin(failed)" preserve-order="true">
+    <classes>
+      <class name="Signin.Signin">
+        <methods>
+          <include name="signin_01"/>
+        </methods>
+      </class> <!-- Signin.Signin -->
+      <class name="bookflight.BookFlight">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- bookflight.BookFlight -->
+    </classes>
+  </test> <!-- signin(failed) -->
+  <test name="flightfinder(failed)" preserve-order="true">
+    <classes>
+      <class name="flightfinder.FlightFinder">
+        <methods>
+          <include name="Flighfinder_01"/>
+        </methods>
+      </class> <!-- flightfinder.FlightFinder -->
+      <class name="bookflight.BookFlight">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- bookflight.BookFlight -->
+    </classes>
+  </test> <!-- flightfinder(failed) -->
+  <test name="selectflight(failed)" preserve-order="true">
+    <classes>
+      <class name="selectflight.SelectFlight">
+        <methods>
+          <include name="Selectflight_01"/>
+        </methods>
+      </class> <!-- selectflight.SelectFlight -->
+      <class name="bookflight.BookFlight">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- bookflight.BookFlight -->
+    </classes>
+  </test> <!-- selectflight(failed) -->
+  <test name="BookFlight(failed)" preserve-order="true">
+    <classes>
+      <class name="bookflight.BookFlight">
+        <methods>
+          <include name="Book_flight01"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- bookflight.BookFlight -->
+    </classes>
+  </test> <!-- BookFlight(failed) -->
+  <test name="Flightconfirm(failed)" preserve-order="true">
+    <classes>
+      <class name="flightconfirm.FlightConfirm">
+        <methods>
+          <include name="confirm"/>
+        </methods>
+      </class> <!-- flightconfirm.FlightConfirm -->
+      <class name="bookflight.BookFlight">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- bookflight.BookFlight -->
+    </classes>
+  </test> <!-- Flightconfirm(failed) -->
+</suite> <!-- Failed suite [Suite] -->

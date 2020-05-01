@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="143323" started-at="2020-05-01T09:33:53Z" finished-at="2020-05-01T09:36:16Z">
+    <groups>
+    </groups>
+    <test name="Registration" duration-ms="50537" started-at="2020-05-01T09:33:53Z" finished-at="2020-05-01T09:34:43Z">
+      <class name="registration.Registration">
+        <test-method status="PASS" signature="Registration_01()[pri:0, instance:registration.Registration@157632c9]" name="Registration_01" duration-ms="50490" started-at="2020-05-01T15:03:53Z" finished-at="2020-05-01T15:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registration_01 -->
+      </class> <!-- registration.Registration -->
+    </test> <!-- Registration -->
+    <test name="signin" duration-ms="63093" started-at="2020-05-01T09:34:44Z" finished-at="2020-05-01T09:35:47Z">
+      <class name="Signin.Signin">
+        <test-method status="PASS" signature="signin_01()[pri:0, instance:Signin.Signin@3c87521]" name="signin_01" duration-ms="63084" started-at="2020-05-01T15:04:44Z" finished-at="2020-05-01T15:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_01 -->
+      </class> <!-- Signin.Signin -->
+    </test> <!-- signin -->
+    <test name="flightfinder" duration-ms="9549" started-at="2020-05-01T09:35:47Z" finished-at="2020-05-01T09:35:57Z">
+      <class name="flightfinder.FlightFinder">
+        <test-method status="PASS" signature="Flighfinder_01()[pri:0, instance:flightfinder.FlightFinder@780cb77]" name="Flighfinder_01" duration-ms="9536" started-at="2020-05-01T15:05:47Z" finished-at="2020-05-01T15:05:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flighfinder_01 -->
+      </class> <!-- flightfinder.FlightFinder -->
+    </test> <!-- flightfinder -->
+    <test name="selectflight" duration-ms="5092" started-at="2020-05-01T09:35:57Z" finished-at="2020-05-01T09:36:02Z">
+      <class name="selectflight.SelectFlight">
+        <test-method status="PASS" signature="Selectflight_01()[pri:0, instance:selectflight.SelectFlight@14ec4505]" name="Selectflight_01" duration-ms="5076" started-at="2020-05-01T15:05:57Z" finished-at="2020-05-01T15:06:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selectflight_01 -->
+      </class> <!-- selectflight.SelectFlight -->
+    </test> <!-- selectflight -->
+    <test name="BookFlight" duration-ms="11011" started-at="2020-05-01T09:36:02Z" finished-at="2020-05-01T09:36:13Z">
+      <class name="bookflight.BookFlight">
+        <test-method status="PASS" signature="Book_flight01()[pri:0, instance:bookflight.BookFlight@7920ba90]" name="Book_flight01" duration-ms="10997" started-at="2020-05-01T15:06:02Z" finished-at="2020-05-01T15:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book_flight01 -->
+      </class> <!-- bookflight.BookFlight -->
+    </test> <!-- BookFlight -->
+    <test name="Flightconfirm" duration-ms="3342" started-at="2020-05-01T09:36:13Z" finished-at="2020-05-01T09:36:16Z">
+      <class name="bookflight.BookFlight">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:bookflight.BookFlight@7920ba90]" name="Login" is-config="true" duration-ms="35916" started-at="2020-05-01T15:03:17Z" finished-at="2020-05-01T15:03:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- bookflight.BookFlight -->
+      <class name="flightconfirm.FlightConfirm">
+        <test-method status="PASS" signature="confirm()[pri:0, instance:flightconfirm.FlightConfirm@6f3b5d16]" name="confirm" duration-ms="3316" started-at="2020-05-01T15:06:13Z" finished-at="2020-05-01T15:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm -->
+      </class> <!-- flightconfirm.FlightConfirm -->
+    </test> <!-- Flightconfirm -->
+  </suite> <!-- Suite -->
+</testng-results>
